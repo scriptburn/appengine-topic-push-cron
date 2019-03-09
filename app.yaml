@@ -1,0 +1,4 @@
+runtime: nodejs8
+env_variables:
+  PUBSUB_TOPIC: scorpion-topic-cron
+  PUBSUB_VERIFICATION_TOKEN: sdfgsdlfgAsssfsfs

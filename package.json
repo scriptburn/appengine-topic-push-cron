@@ -1,0 +1,20 @@
+{
+  "name": "cron-scheduler",
+  "version": "1.0.0",
+  "description": "Cron scheduler for subzero",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://rajneeshojha123@subzerofs.ioelastic.com//data/hosting/subzero.developmentpath.co.uk/public_html/cron-app/appengine/.git"
+  },
+  "author": "Raj",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.20.1",
+    "express": "^4.16.4"
+  }
+}
