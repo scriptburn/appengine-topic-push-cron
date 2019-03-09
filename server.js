@@ -33,8 +33,6 @@
 
      const PubSub = require(`@google-cloud/pubsub`);
 
-
-
      var pubsub = new PubSub({
          projectId: process.env.GOOGLE_CLOUD_PROJECT
      });

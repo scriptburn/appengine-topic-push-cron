@@ -1,7 +1,5 @@
 cron:
-- description: "Cron job to send pub sub message to subzero which runs cron jobs on gcp in response"
+- description: "Cron job to send pub sub message to gcp which runs cron jobs on gcp in response"
   url: /cron
   target: beta
   schedule: every 1 minutes
-env_variables:
-  PUBSUB_VERIFICATION_TOKEN: sdfgsdlfgAsssfsfs  
